@@ -19,7 +19,6 @@ class ApplicationTest extends TestCase
             'injector' => Injector::class,
             'configuration' => ConfigurationSet::class,
             'commands' => CommandSet::class,
-            'application' => ConsoleApplication::class,
         ];
 
         foreach ($props as $name => $expected) {

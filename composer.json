@@ -10,9 +10,9 @@
         }
     ],
     "require": {
+        "php": ">=5.5",
         "equip/config": "^1.0",
         "equip/structure": "^1.1",
-        "php": ">=5.5",
         "symfony/console": "^3.1"
     },
     "require-dev": {
@@ -23,9 +23,5 @@
             "Equip\\Console\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "EquipTests\\Console\\": "tests/"
-        }
-    }
+    "bin": ["bin/console"]
 }
