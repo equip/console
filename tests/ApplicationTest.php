@@ -108,7 +108,9 @@ class ApplicationTest extends TestCase
 
     public function testRun()
     {
-        $application = $this->createMock(ConsoleApplication::class);
+        $application = $this->getMockBuilder(ConsoleApplication::class)
+            ->setMethods(['run', 'add'])
+            ->getMock();
 
         $application
             ->expects($this->once())
