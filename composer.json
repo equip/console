@@ -1,0 +1,27 @@
+{
+    "name": "equip/console",
+    "description": "Equip console",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Equip Contributors",
+            "homepage": "https://github.com/equip"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "equip/config": "^1.0",
+        "equip/structure": "^1.1",
+        "symfony/console": "^3.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8|^5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Equip\\Console\\": "src/"
+        }
+    },
+    "bin": ["bin/console"]
+}
