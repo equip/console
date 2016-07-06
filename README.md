@@ -6,3 +6,6 @@
 [![Code Coverage](https://scrutinizer-ci.com/g/equip/console/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/equip/console/?branch=master)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/equip/console/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/equip/console/?branch=master)
 
+This library provides support for [Symfony/Console](https://github.com/symfony/console) to be used within [Equip Framework](https://github.com/equip/framework).
+
+Documentation coming soon.
